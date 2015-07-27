@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2234EA561A18D9260005BDEB /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2234EA551A18D9260005BDEB /* CalendarViewController.swift */; };
+		322DB3CC1A13D45D006E1074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB3CB1A13D45D006E1074 /* AppDelegate.swift */; };
+		322DB3D11A13D45D006E1074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322DB3CF1A13D45D006E1074 /* Main.storyboard */; };
+		322DB3D31A13D45D006E1074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322DB3D21A13D45D006E1074 /* Images.xcassets */; };
+		322DB3D61A13D45D006E1074 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322DB3D41A13D45D006E1074 /* LaunchScreen.xib */; };
+		322DB3E21A13D45D006E1074 /* GentseFeestenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB3E11A13D45D006E1074 /* GentseFeestenAppTests.swift */; };
+		322DB3EC1A13D573006E1074 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB3EB1A13D573006E1074 /* EventsViewController.swift */; };
+		322DB3EE1A13D72E006E1074 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB3ED1A13D72E006E1074 /* Event.swift */; };
+		322DB3F01A13D827006E1074 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB3EF1A13D827006E1074 /* Json.swift */; };
+		322DB3F21A13D926006E1074 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB3F11A13D926006E1074 /* Service.swift */; };
+		3239E62D1A164E9600C95E3E /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239E62C1A164E9600C95E3E /* EventViewController.swift */; };
+		324879B31A1BF0BA00D54F05 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324879B21A1BF0BA00D54F05 /* DataViewController.swift */; };
+		325511681A1CAEDA00A3EC33 /* OverzichtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325511671A1CAEDA00A3EC33 /* OverzichtViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322DB3DC1A13D45D006E1074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322DB3BE1A13D45D006E1074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322DB3C51A13D45D006E1074;
+			remoteInfo = GentseFeestenApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2234EA551A18D9260005BDEB /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ../CalendarViewController.swift; sourceTree = "<group>"; };
+		322DB3C61A13D45D006E1074 /* GentseFeestenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GentseFeestenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DB3CA1A13D45D006E1074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322DB3CB1A13D45D006E1074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		322DB3D01A13D45D006E1074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322DB3D21A13D45D006E1074 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		322DB3D51A13D45D006E1074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		322DB3DB1A13D45D006E1074 /* GentseFeestenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GentseFeestenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DB3E01A13D45D006E1074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322DB3E11A13D45D006E1074 /* GentseFeestenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GentseFeestenAppTests.swift; sourceTree = "<group>"; };
+		322DB3EB1A13D573006E1074 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		322DB3ED1A13D72E006E1074 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		322DB3EF1A13D827006E1074 /* Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		322DB3F11A13D926006E1074 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3239E62C1A164E9600C95E3E /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		324879B21A1BF0BA00D54F05 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		325511671A1CAEDA00A3EC33 /* OverzichtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverzichtViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322DB3C31A13D45D006E1074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB3D81A13D45D006E1074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322DB3BD1A13D45D006E1074 = {
+			isa = PBXGroup;
+			children = (
+				322DB3C81A13D45D006E1074 /* GentseFeestenApp */,
+				322DB3DE1A13D45D006E1074 /* GentseFeestenAppTests */,
+				322DB3C71A13D45D006E1074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322DB3C71A13D45D006E1074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322DB3C61A13D45D006E1074 /* GentseFeestenApp.app */,
+				322DB3DB1A13D45D006E1074 /* GentseFeestenAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322DB3C81A13D45D006E1074 /* GentseFeestenApp */ = {
+			isa = PBXGroup;
+			children = (
+				322DB3CB1A13D45D006E1074 /* AppDelegate.swift */,
+				322DB3CF1A13D45D006E1074 /* Main.storyboard */,
+				322DB3D21A13D45D006E1074 /* Images.xcassets */,
+				322DB3D41A13D45D006E1074 /* LaunchScreen.xib */,
+				322DB3C91A13D45D006E1074 /* Supporting Files */,
+				322DB3EB1A13D573006E1074 /* EventsViewController.swift */,
+				322DB3ED1A13D72E006E1074 /* Event.swift */,
+				322DB3EF1A13D827006E1074 /* Json.swift */,
+				322DB3F11A13D926006E1074 /* Service.swift */,
+				2234EA551A18D9260005BDEB /* CalendarViewController.swift */,
+				3239E62C1A164E9600C95E3E /* EventViewController.swift */,
+				324879B21A1BF0BA00D54F05 /* DataViewController.swift */,
+				325511671A1CAEDA00A3EC33 /* OverzichtViewController.swift */,
+			);
+			path = GentseFeestenApp;
+			sourceTree = "<group>";
+		};
+		322DB3C91A13D45D006E1074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				322DB3CA1A13D45D006E1074 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		322DB3DE1A13D45D006E1074 /* GentseFeestenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				322DB3E11A13D45D006E1074 /* GentseFeestenAppTests.swift */,
+				322DB3DF1A13D45D006E1074 /* Supporting Files */,
+			);
+			path = GentseFeestenAppTests;
+			sourceTree = "<group>";
+		};
+		322DB3DF1A13D45D006E1074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				322DB3E01A13D45D006E1074 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322DB3C51A13D45D006E1074 /* GentseFeestenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322DB3E51A13D45D006E1074 /* Build configuration list for PBXNativeTarget "GentseFeestenApp" */;
+			buildPhases = (
+				322DB3C21A13D45D006E1074 /* Sources */,
+				322DB3C31A13D45D006E1074 /* Frameworks */,
+				322DB3C41A13D45D006E1074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GentseFeestenApp;
+			productName = GentseFeestenApp;
+			productReference = 322DB3C61A13D45D006E1074 /* GentseFeestenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		322DB3DA1A13D45D006E1074 /* GentseFeestenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322DB3E81A13D45D006E1074 /* Build configuration list for PBXNativeTarget "GentseFeestenAppTests" */;
+			buildPhases = (
+				322DB3D71A13D45D006E1074 /* Sources */,
+				322DB3D81A13D45D006E1074 /* Frameworks */,
+				322DB3D91A13D45D006E1074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322DB3DD1A13D45D006E1074 /* PBXTargetDependency */,
+			);
+			name = GentseFeestenAppTests;
+			productName = GentseFeestenAppTests;
+			productReference = 322DB3DB1A13D45D006E1074 /* GentseFeestenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322DB3BE1A13D45D006E1074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Matthias De Groote";
+				TargetAttributes = {
+					322DB3C51A13D45D006E1074 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					322DB3DA1A13D45D006E1074 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 322DB3C51A13D45D006E1074;
+					};
+				};
+			};
+			buildConfigurationList = 322DB3C11A13D45D006E1074 /* Build configuration list for PBXProject "GentseFeestenApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322DB3BD1A13D45D006E1074;
+			productRefGroup = 322DB3C71A13D45D006E1074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322DB3C51A13D45D006E1074 /* GentseFeestenApp */,
+				322DB3DA1A13D45D006E1074 /* GentseFeestenAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322DB3C41A13D45D006E1074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DB3D11A13D45D006E1074 /* Main.storyboard in Resources */,
+				322DB3D61A13D45D006E1074 /* LaunchScreen.xib in Resources */,
+				322DB3D31A13D45D006E1074 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB3D91A13D45D006E1074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322DB3C21A13D45D006E1074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DB3EE1A13D72E006E1074 /* Event.swift in Sources */,
+				322DB3F01A13D827006E1074 /* Json.swift in Sources */,
+				322DB3CC1A13D45D006E1074 /* AppDelegate.swift in Sources */,
+				322DB3EC1A13D573006E1074 /* EventsViewController.swift in Sources */,
+				324879B31A1BF0BA00D54F05 /* DataViewController.swift in Sources */,
+				322DB3F21A13D926006E1074 /* Service.swift in Sources */,
+				2234EA561A18D9260005BDEB /* CalendarViewController.swift in Sources */,
+				325511681A1CAEDA00A3EC33 /* OverzichtViewController.swift in Sources */,
+				3239E62D1A164E9600C95E3E /* EventViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB3D71A13D45D006E1074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DB3E21A13D45D006E1074 /* GentseFeestenAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		322DB3DD1A13D45D006E1074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322DB3C51A13D45D006E1074 /* GentseFeestenApp */;
+			targetProxy = 322DB3DC1A13D45D006E1074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		322DB3CF1A13D45D006E1074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322DB3D01A13D45D006E1074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		322DB3D41A13D45D006E1074 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322DB3D51A13D45D006E1074 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		322DB3E31A13D45D006E1074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322DB3E41A13D45D006E1074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		322DB3E61A13D45D006E1074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GentseFeestenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		322DB3E71A13D45D006E1074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GentseFeestenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		322DB3E91A13D45D006E1074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GentseFeestenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GentseFeestenApp.app/GentseFeestenApp";
+			};
+			name = Debug;
+		};
+		322DB3EA1A13D45D006E1074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GentseFeestenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GentseFeestenApp.app/GentseFeestenApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322DB3C11A13D45D006E1074 /* Build configuration list for PBXProject "GentseFeestenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DB3E31A13D45D006E1074 /* Debug */,
+				322DB3E41A13D45D006E1074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322DB3E51A13D45D006E1074 /* Build configuration list for PBXNativeTarget "GentseFeestenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DB3E61A13D45D006E1074 /* Debug */,
+				322DB3E71A13D45D006E1074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322DB3E81A13D45D006E1074 /* Build configuration list for PBXNativeTarget "GentseFeestenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DB3E91A13D45D006E1074 /* Debug */,
+				322DB3EA1A13D45D006E1074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322DB3BE1A13D45D006E1074 /* Project object */;
+}
